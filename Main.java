@@ -30,8 +30,14 @@ class Main {
      }
 
     
+    //Put into a new method
     
-    
+   }
+   static boolean doubleCheck(boolean timeWorked, int ageCheck, boolean expCheck)
+   {
+     boolean doubleCheck;
+     return doubleCheck = timeWorked && ageCheck >= 18 && expCheck;
+  
    }
 }
 
