@@ -14,7 +14,19 @@ class Main {
     System.out.println("Was your time at work above 2 months? true/false");
     boolean expCheck = scan.nextBoolean();
     System.out.println("What is your age");
-    int ageCheck = scan.nextInt();
+    int ageCheck = scan.nextInt(); 
+
+     //Checks to make sure age is 18 or older
+  
+     if (ageCheck >= 18)
+     {
+         System.out.println("Next.");
+     }
+     else
+     {
+       System.out.println("Sorry re apply next time!");
+     }
+
    
     
    }
