@@ -16,11 +16,13 @@ class Main {
     System.out.println("What is your age");
     int ageCheck = scan.nextInt(); 
 
-     //Added to check applicant has worked before
+     
+     
+     //Added to check timeWorked, ageCheck, and expCheck
 
-     if (timeWorked)
+     if (timeWorked && ageCheck >= 18 && expCheck)
      {
-         System.out.println("Next.");
+         System.out.println("you got the job! ");
      }
      else
      {
@@ -29,19 +31,6 @@ class Main {
 
     
     
-    
-     //Checks to make sure age is 18 or older
-  
-     if (ageCheck >= 18)
-     {
-         System.out.println("Next.");
-     }
-     else
-     {
-       System.out.println("Sorry re apply next time!");
-     }
-
-   
     
    }
 }
