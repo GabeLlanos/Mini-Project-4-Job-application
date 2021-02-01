@@ -15,6 +15,8 @@ class Main {
     boolean expCheck = scan.nextBoolean();
     System.out.println("What is your age");
     int ageCheck = scan.nextInt(); 
+    System.out.println("If you have worked, did your previous employer write a recommendation? true/false ");
+    boolean recCheck = scan.nextBoolean();
 
      
      
